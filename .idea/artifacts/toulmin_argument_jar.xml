@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="toulmin_argument:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/toulmin_argument_jar</output-path>
+    <root id="archive" name="toulmin_argument.jar">
+      <element id="module-output" name="toulmin_argument" />
+    </root>
+  </artifact>
+</component>
