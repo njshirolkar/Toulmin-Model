@@ -187,17 +187,19 @@ public class inputsGUI extends JFrame {
 
         // Add buttons and UI
 
-        inputsCard.add(new JLabel("Grounds: "));
-        inputsCard.add(groundsIn);
-
-        inputsCard.add(new JLabel("Qualifier: "));
-        inputsCard.add(qualIn);
-
         inputsCard.add(new JLabel("Claim: "));
         inputsCard.add(claimIn);
 
+
+        inputsCard.add(new JLabel("Reason: "));
+        inputsCard.add(qualIn);
+
         inputsCard.add(new JLabel("Warrant: "));
         inputsCard.add(warrIn);
+
+        inputsCard.add(new JLabel("Grounds: "));
+        inputsCard.add(groundsIn);
+
 
         inputsCard.add(new JLabel("Backing: "));
         inputsCard.add(backIn);
@@ -232,7 +234,7 @@ public class inputsGUI extends JFrame {
         groundsOut.setLocation(50, 350);
 
 
-        q = new JLabel("Qualifier");
+        q = new JLabel("Reason");
         q.setFont(f.deriveFont(f.getStyle() ^ Font.BOLD));
         q.setSize(100, 100);
         q.setLocation(300, 275);
